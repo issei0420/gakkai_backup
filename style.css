@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.top-bar {
+    height: 7px;
+    background-color: aqua;
+}
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+}
+.top-nav-menu {
+    list-style: none;
+    display: flex;
+    font-size: 0.75rem;
+}
+.top-nav-menu li {
+    padding: 0rem 0.75rem;
+}
+.border {
+    border-left: 1px solid;
+    border-right: 1px solid;
+}
+.top-area {
+    width: 800px;
+    height: 157px;
+    border-bottom: solid 1px;
+    margin: 0 auto;
+}
