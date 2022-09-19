@@ -2,9 +2,13 @@
     margin: 0;
     padding: 0;
 }
+/* common */
+.mb {
+    margin-bottom: 1rem;
+}
 /* top */
 .top-area {
-    width: 800px;
+    width: 900px;
     height: 157px;
     margin: 0 auto;
     background-color: #f7f7b8;
@@ -52,21 +56,21 @@
 /* main */
 .container {
     height: 1000px;
-    background-color: #64DB8F;
+    background-color: rgb(100, 219, 143);
 }
 .main {
-    width: 800px;
+    width: 900px;
     height: 100%;
     margin: auto;
     background-color: white;
 }
-.conference-title-box {
+.conference-title-box { 
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1.4rem;
     border: 1px solid;
-    height: 60px;
+    height: 60px; 
 }
 .menu-area {
     display: flex;
@@ -83,4 +87,38 @@
     margin: 0 0.75rem 0;
     padding: 0.3rem 0.4rem;
     border-radius: 0 0 10px 10px;
+}
+.menu-title-area {
+    text-align: center;
+    margin-bottom: 1.25rem;
+}
+.menu-title {
+    padding-bottom:  0.25rem;
+    border-bottom: 2px solid rgb(183, 182, 182);
+    font-size: 1.2rem;
+}
+.seminar-date {
+    margin: 0 1rem 1rem;
+    padding: 0.25rem 0.5rem;
+    background-color: #64DB8F;
+    font-size: 1.1rem;
+    color: white;
+    font-weight: 600;
+    background: linear-gradient(to right, rgb(94, 206, 135), rgb(100, 219, 143, 0.2) );
+}
+.info-area {
+    margin: 0 1rem 0;
+    display: flex;
+}
+.info-box {
+    border: 1px solid;
+    display: flex;
+}
+.box-right {
+    width: 200px;
+    border-left: 1px solid;
+}
+.reserve-num {
+    height: 200px;
+    border-bottom: 1px solid;
 }
