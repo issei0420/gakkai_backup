@@ -119,6 +119,30 @@
     border-left: 1px solid;
 }
 .reserve-num {
-    height: 200px;
+    height: 141px;
     border-bottom: 1px solid;
+}
+.reserve-num-title {
+    height: 41px;
+    background-color: rgb(224, 224, 224);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right-bottom {
+    height: 141px;
+    display: flex;
+}
+.buttons {
+    margin: auto;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.right-bottom span {
+    border: 1px solid;
+    text-align: center;
+    width: 141px;
 }
