@@ -13,7 +13,12 @@
     height: 440px;
     background-color: #64DB8F;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center; 
+}
+.buns {
+    height: calc((100% - 100% / 1.4142) / 2);
+    display: flex;
     align-items: center;
 }
 .wrapper {
@@ -24,7 +29,6 @@
     background-color: #F9F790;
 }
 .grid-track {
-    /* border: 1px solid; */
     display: flex;
     align-items: center;
 }
@@ -44,7 +48,8 @@
 }
 .input {
     width: calc(100% / 1.4142);
-    height: calc(100% / 2.5);
+    height: calc(100% / 2.4);
+    font-size: 100%;
 }
 .user-type-button {
     border: 1px solid;
@@ -54,4 +59,18 @@
     width: calc(100% / 1.4142);
     display: flex;
     justify-content: space-between;
+}
+.title {
+    font-size: larger;
+}
+.menu-title {
+    padding: 0 0.25rem;
+    border-bottom: 1px solid;
+    border-color: rgb(155, 155, 155);
+}
+#signup-button {
+    padding: 2px 8px;
+    color: white;
+    background-color: #DB7307;
+    border-radius: 2.5px;
 }
