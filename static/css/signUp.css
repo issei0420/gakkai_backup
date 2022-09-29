@@ -1,6 +1,13 @@
+/* 
+ .wrapper以外loginと共有 
+*/
+
 * {
     margin: 0;
     padding: 0;
+}
+body {
+    background-color: rgb(250, 248, 248);
 }
 .container {
     height: 100vh;
@@ -19,6 +26,24 @@
 .buns {
     height: calc((100% - 100% / 1.4142) / 2);
     display: flex;
+}
+.title {
+    font-size: larger;
+}
+.title span {
+    background-color: white;
+    padding: 3px 12px;
+    height: calc(100% / 2);
+    text-align: center;
+    color: #DB7307;
+    font-weight: bolder;
+    border-radius: 20px;
+    text-shadow:1px 1px 3px rgb(224, 224, 224);
+}
+.align-start {
+    align-items: center;
+}
+.align-center {
     align-items: center;
 }
 .wrapper {
@@ -48,29 +73,30 @@
 }
 .input {
     width: calc(100% / 1.4142);
-    height: calc(100% / 2.4);
+    height: 26px;
     font-size: 100%;
 }
 .user-type-button {
     border: 1px solid;
     padding: 2px 4px;
+    background-color: rgb(230, 230, 230);
 }
 .buttons {
     width: calc(100% / 1.4142);
     display: flex;
     justify-content: space-between;
 }
-.title {
-    font-size: larger;
-}
 .menu-title {
     padding: 0 0.25rem;
     border-bottom: 1px solid;
     border-color: rgb(155, 155, 155);
 }
-#signup-button {
+.submit-button {
     padding: 2px 8px;
     color: white;
     background-color: #DB7307;
     border-radius: 2.5px;
+}
+#login {
+    color: black;
 }

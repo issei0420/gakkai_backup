@@ -2,13 +2,16 @@
     margin: 0;
     padding: 0;
 }
+body {
+    background-color: rgb(242, 241, 241);
+}
 /* common */
 .mb {
     margin-bottom: 1rem;
 }
 /* top */
 .top-area {
-    width: 880px;
+    width: 930px;
     height: 157px;
     margin: 0 auto;
     background-color: #F9F790;
@@ -62,7 +65,7 @@
     background-color: rgb(100, 219, 143);
 }
 .main {
-    width: 880px;
+    width: 930px;
     height: 100%;
     margin: auto;
     background-color: white;
@@ -87,13 +90,13 @@
     background-color: #F9F790;
     border: 1px solid;
     border-top: none;
-    margin-right: 1rem;
+    margin-right: 1.5rem;
     padding: 0.3rem 0.4rem;
     border-radius: 0 0 10px 10px;
 }
 .menu-title-area {
     text-align: center;
-    margin-bottom: 1.25rem;
+    margin-bottom: 1.75rem;
 }
 .menu-title {
     padding-bottom:  0.25rem;
@@ -101,7 +104,7 @@
     font-size: 1.2rem;
 }
 .seminar-date {
-    margin: 0 1rem 1rem;
+    margin: 0 1.75rem 1.75rem;
     padding: 0.25rem 1rem;
     background-color: #64DB8F;
     font-size: 1.1rem;
@@ -113,10 +116,16 @@
     width: fit-content;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 400px 400px;
-    grid-template-rows: 283px 283px 283px 283px;
-    row-gap: 1rem;
-    column-gap: 1rem;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 1.75rem;
+    column-gap: 1.75rem;
+}
+.seminar-title {
+    border: 1px solid;
+    width: 200px;
+    border-bottom: none;
+    padding: 2px 0;
+    text-align: center;
 }
 .info-box {
     border: 1px solid;
@@ -173,4 +182,9 @@
 }
 .cancel {
     background-color: rgb(224, 224, 224);
+}
+.company {
+    text-align: center;
+    padding-top: 0.25rem;
+    text-decoration: underline;
 }
