@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.nav-bar {
+    display: flex;
+    background-color: rgb(110, 241, 157);
+    /* background-color: rgb(100, 219, 143); */
+    height: 50px;
+}
+.title {
+    width: 59%;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-menu {
+    width: 41%;
+    background-color: #F9F790;
+}
+.nav-menu ul {
+    height: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-link {
+    color: black;
+    text-decoration: none;
+}
+.register-form {
+    width: 59%;
+    margin: 3rem auto;
+}
+.title-area {
+    margin-bottom: 1rem;
+}
+.title-area span {
+    border-bottom: 1px solid;
+    padding-bottom: 0.25rem;
+}
+.input-area {
+    width: 100%;
+    border: 1px solid;
+    margin-bottom: 1rem;
+    display: grid;
+    grid-template-columns: 38% 38% 1fr;
+}
+.input-area div {
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+}
+.box2, .box4, .box6 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.box1, .box3, .box5, .box7, .box8, .box10, .box11 {
+    justify-content: center;
+}
+input {
+    width: 61%;
+}
+.file-input {
+    display: none;
+}
+.seminar-poster {
+    background-color: gray;
+    width: 200px;
+    height: calc(200px * 1.4142);
+}
+.lunch-image {
+    background-color: gray;
+    width: 200px;
+    height:200px
+}
