@@ -19,7 +19,7 @@ body {
 .top-wrapper {
     height: 100%;
     display: grid;
-    grid-template-rows: 7px 1fr 1fr 80px;
+    grid-template-rows: 7px 20px 55px 1fr;
 }
 .top-bar {
     height: 100%;
@@ -42,24 +42,31 @@ body {
 .border {
     border-right: 0.8px solid;
 }
-/* #slogan {
-    margin-left: 1rem;
-} */
+#slogan {
+    margin-left: 1.75rem;
+    display: flex;
+    align-items: center;
+}
+#slogan span {
+    border-bottom: 1px solid;
+}
 .top-main {
+    margin: 0 1.75rem;
     display: flex;
     justify-content: space-between;
+    /* align-items: center; */
 }
-/* #service-title {
+#service-title {
     font-size: 1.6rem;
-} */
-/* #english {
+}
+#english {
     font-size: 1.1rem;
     padding: 0.25rem 0.5rem;
     color: white;
     background-color: #DB7307;
     align-self: flex-end;
-    margin-bottom: 1rem;
-} */
+    margin-bottom: calc(1.75rem / 1.618);
+}
 /* main */
 .container {
     height: 1000px;

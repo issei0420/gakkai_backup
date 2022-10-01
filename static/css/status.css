@@ -1,12 +1,13 @@
-.status {
-    border: 1px solid;
+.status-block {
     width: 690px;
     margin: auto;
+}
+.status {
+    border: 1px solid;
     display: grid;
     grid-template-columns: 264px 426px;
     column-gap: 1rem;
-    margin-bottom: 0.5rem;
-
+    margin-bottom: 1rem;
 }
 .column {
     background-color: #F9F790;
@@ -31,11 +32,9 @@
 }
 .status-date {
     width: 266px;
-    margin-left: 94px;
     text-align: center;
     font-weight: 550;
     color: white;
-    /* background-color: #64DB8F; */
     padding: 0.25rem 0;
     background: radial-gradient( rgb(94, 206, 135), #64DB8F 99%);
 }
